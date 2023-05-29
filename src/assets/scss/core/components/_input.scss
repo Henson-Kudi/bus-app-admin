@@ -1,0 +1,11 @@
+// INPUT STYLES
+// ////////////////////////////
+
+.avatar-input {
+  width: 0;
+  height: 0;
+  z-index: -1;
+  position: absolute;
+  visibility: hidden;
+  overflow: hidden;
+}

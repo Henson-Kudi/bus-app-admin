@@ -1,0 +1,41 @@
+@import "_dashlite_variables";
+
+.bus-seats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+
+  &.no-wrap {
+    flex-wrap: nowrap !important;
+  }
+  &.text-sm {
+    font-size: 12px;
+  }
+}
+
+.bus-seat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: max-content;
+  & .seat-position-cont {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    & .seat-position {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+    }
+  }
+
+  & p.bus-number {
+    margin: 0 !important;
+  }
+}
